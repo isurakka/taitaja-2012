@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+    <title>Hannan kakku ja pulla varastotilanne</title>
+    <link>http://localhost/taitaja2012/</link>
+    <description>Hannan kakku ja pulla varastotilanne</description>
+    <item>
+        <guid>K1</guid>
+        <title>Karhu</title>
+        <hinta>20</hinta>
+        <varastossa>3</varastossa>
+        <description>Karhu</description>
+        <link>http://localhost/taitaja2012/kakkuesittely.php#karhu</link>
+    </item>
+    <item>
+        <guid>K2</guid>
+        <title>Kukat</title>
+        <hinta>25</hinta>
+        <varastossa>2</varastossa>
+        <description>Kukat</description>
+        <link>http://localhost/taitaja2012/kakkuesittely.php#kukat</link>
+    </item>
+    <item>
+        <guid>K3</guid>
+        <title>Ruusut</title>
+        <hinta>25</hinta>
+        <varastossa>7</varastossa>
+        <description>Ruusut</description>
+        <link>http://localhost/taitaja2012/kakkuesittely.php#ruusut</link>
+    </item>
+</channel>
+
+</rss>

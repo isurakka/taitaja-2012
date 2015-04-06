@@ -1,0 +1,288 @@
+html, body
+{
+    height: 100%;
+    margin: 0px;
+}
+
+body
+{
+    font-family: Tahoma, Verdana, Arial, Roman;
+    color: #69374D;
+    
+    background-color: #EFEFDE;
+    background-image: url("images/topbg.png");
+    background-repeat: repeat-x;
+    background-position: top;
+    
+    text-align: center;
+}
+h1
+{
+    color: #36282B;
+    font-size: 18px;
+}
+h2
+{
+    color: #36282B;
+    font-size: 14px;
+    line-height: 10px;
+}
+p
+{
+    color: #69374D;
+    font-size: 14px;
+}
+th
+{
+    color: #36282B;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+td .rssData
+{
+    color: #69374D;
+    font-size: 13px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: left;
+}
+div, span, td
+{
+    border: 0px solid black;
+}
+table
+{
+    border-spacing: 0;
+}
+.container
+{
+    /* Hack jolla poistetaan selaimien default marginit */
+    display: inline-block; 
+    text-align: left;
+}
+
+.container, .menu
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu
+{
+    height: 100px;
+}
+.logoContainer
+{
+    width: 100px;
+}
+.menuLinks, .menuLinks a, .menuLinks a:link, .menuLinks a:visited, .menuLinks a:hover, .menuLinks a:active
+{
+    text-align: center;
+    color: #69374D;
+    font-family: Tahoma, Verdana, Arial, Roman;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+.menu img
+{
+    float: left;
+}
+.content
+{
+    width: 760px;
+}
+.paddedS
+{
+    padding: 5px;
+}
+.paddedM
+{
+    padding: 10px;
+}
+.paddedL
+{
+    padding: 20px;
+}
+.textContent
+{
+    max-width: 470px;
+    float: left;
+}
+.window
+{
+    width: 240px;
+    background-color: #E2D9CB;
+    clear: right;
+    margin-bottom: 20px;
+}
+.rightFloat
+{
+    float: right;
+}
+.leftFloat
+{
+    float: left;
+}
+.windowTitle
+{
+    height: 10px;
+    width: 240px;
+    background-color: #D9CBBF;
+    padding-left: 10px;
+}
+.windowTitle h2
+{
+    margin-top: 10px;
+}
+.windowContent
+{
+    width: 230px;
+    text-align: center;
+}
+.windowContent iframe
+{
+    overflow:hidden;
+    width:210px; 
+    height:45px;
+    border: 0px;
+    border-style: none;
+}
+.floatfix
+{
+    display: inline-block;
+}
+footer
+{
+    font-size: 12px;
+    color: #A67E7B;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #FFFFED;
+    padding: 3px;
+}
+#esittely
+{
+    height: 350px;
+    width: 470px;
+    background-color: #D9CBBF;
+    
+	overflow: hidden;
+    
+	text-align: center;
+    position: relative;
+}
+.esittelyV, .esittelyK
+{
+	height: 100%;
+	width: 100%;
+	color: red;
+    position: absolute;
+}
+.esittelyV img, .esittelyK img
+{
+    margin-top: 5px;
+}
+.esittelyV
+{
+    left: -500px;
+}
+.esittelyTeksti
+{
+    position: absolute;
+    top: 310px;
+    left: 15px;
+}
+.windowIcon
+{
+    border: 0px;
+    float: right;
+    margin: 5px;
+    margin-top: 6px;
+}
+#map
+{
+    width: 400px;
+    height: 200px;
+}
+#tuoteOverlay
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#tuote
+{
+    width: 500px;
+    height: 300px;
+    background-color: #EFEFDE;
+    position: relative;
+}
+.tuoteTiedot
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.tuoteKuva
+{
+    width: 40%;
+    background-color: #D9CBBF;
+}
+.tuoteKuva img
+{
+    width: 100%;
+    height: auto;
+}
+.tuoteOtsikko, .tuoteHinta
+{
+    height: 60px;
+    
+    vertical-align: top;
+}
+.tuoteOtsikko h1
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tuoteHinta h1
+{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.tuoteTeksti
+{
+    padding-top: 0px;
+    vertical-align: top;
+}
+#tuoteCC
+{
+    width: auto;
+    height: auto;
+    
+    position: absolute;
+    
+    left: 10px;
+    top: 260px;
+}
+.esittelyCC
+{
+    position: absolute;
+    top: 305px;
+    left: 372px;
+}
+#close
+{
+    left: 505px;
+    top: -15px;
+    background-color: #D9CBBF;
+    position: absolute;
+}
